@@ -1,0 +1,14 @@
+[
+    { "id": 9, "activity": "Build a simple game using JavaScript" },
+    { "id": 10, "activity": "Explore a new programming language for an hour" },
+    { "id": 11, "activity": "Set up a personal blog using a static site generator" },
+    { "id": 12, "activity": "Learn how to use a new API and build a small project with it" },
+    { "id": 13, "activity": "Contribute to an open-source project on GitHub" },
+    { "id": 14, "activity": "Try creating a basic IoT project with a microcontroller (like Arduino)" },
+    { "id": 15, "activity": "Experiment with a new code editor or IDE" },
+    { "id": 16, "activity": "Design a simple app mockup using Figma or Sketch" },
+    { "id": 17, "activity": "Take a virtual tour of a data center or tech museum" },
+    { "id": 18, "activity": "Write a script to automate a repetitive task" },
+    { "id": 19, "activity": "Participate in an online coding challenge or hackathon" },
+    { "id": 20, "activity": "Learn the basics of ethical hacking and try a safe challenge" }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTime Breaker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TechTime Breaker</h1>
+        <p>Your go-to place for tech-focused entertainment!</p>
+    </header>
+
+    <div class="container">
+        <div class="content-grid">
+            <div class="card" id="joke-card">
+                <h2> Random Tech Joke 😄</h2>
+                <p id="joke-content">Loading...</p>
+                <button class="refresh-btn" onclick="getJoke()">New Joke</button>
+                <button class="favorite-btn" onclick="addToFavorites('joke')">♥</button>
+            </div>
+
+
+<div class="card" id="activity-card">
+    <h2>Daily Advice</h2>
+    <p id="activity-content">Loading...</p>
+    <button class="refresh-btn" onclick="getActivity()">New Advice</button>
+    <button class="favorite-btn" onclick="addToFavorites('activity')">♥</button>
+</div>
+
+    <div class="card">
+            <h2>Activity Idea 🎯</h2>
+            <p id="activity">Click the button to get an activity!</p>
+            <button class="refresh-btn" onclick="fetchActivity()">New Activity</button>
+    </div>
+
+            <div class="card" id="trivia-card">
+                <h2>Tech Trivia</h2>
+                <div id="trivia-content">Loading...</div>
+                <button class="refresh-btn" onclick="getTrivia()">New Trivia</button>
+                <button class="favorite-btn" onclick="addToFavorites('trivia')">♥</button>
+            </div>
+        </div>
+
+        <div id="favorites">
+            <h2>Your Favorites</h2>
+            <div id="favorites-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
