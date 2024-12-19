@@ -47,8 +47,27 @@
             <h2>Your Favorites</h2>
             <div id="favorites-content"></div>
         </div>
+
+        <!-- Pomodoro Technique -->
+<div class="card" id="pomodoro-card">
+    <h2>Tech Focus Timer</h2>
+    <p>Focus on your work and relax with our Pomodoro Technique</p>
+    <div id="timer-mode" class="focus-mode">Focus Time</div>
+    <div id="timer-display" class="timer">25:00</div>
+    <div class="timer-controls">
+        <button class="refresh-btn" onclick="pomodoro.start()">Start</button>
+        <button class="refresh-btn" onclick="pomodoro.pause()">Pause</button>
+        <button class="refresh-btn" onclick="pomodoro.reset()">Reset</button>
+        <button class="refresh-btn" onclick="pomodoro.toggleBreak()">Break</button>
+    </div>
+</div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
+    <script src="pomodoro.js">
+       
+    </script>
+    
 </body>
 </html>
